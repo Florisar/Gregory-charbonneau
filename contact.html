@@ -22,14 +22,19 @@
   <h2>Contactez-moi</h2>
   <p>Remplissez le formulaire ci-dessous ou utilisez mes coordonnées pour me joindre directement :</p>
 
-  <form action="mailto:votre.email@example.com" method="post" enctype="text/plain">
+  <!-- Formulaire -->
+  <form action="mailto:gregory.email@example.com" method="post" enctype="text/plain">
     <input type="text" name="nom" placeholder="Votre nom" required>
     <input type="email" name="email" placeholder="Votre email" required>
     <textarea name="message" placeholder="Votre message" rows="6" required></textarea>
     <button type="submit">Envoyer</button>
   </form>
 
-  <p style="margin-top:20px;">Ou contactez-moi directement : <strong>gregory.email@example.com</strong></p>
+  <!-- Coordonnées directes -->
+  <div style="margin-top:30px; font-size:18px;">
+    <p>📞 Téléphone : <a href="tel:0612345678">06 12 34 56 78</a></p>
+    <p>✉️ Email : <a href="mailto:gregory.email@example.com">gregory.email@example.com</a></p>
+  </div>
 </div>
 
 </body>
