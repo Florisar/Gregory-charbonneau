@@ -1,30 +1,35 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contact – Gregory Charbonneau</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact – Gregory Charbonneau</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
 <header>
-    <img src="banniere_finale.svg" alt="Bannière" style="width:100%; max-height:260px;">
+  <img src="banniere_finale.svg" alt="Bannière">
 </header>
 
 <nav>
-    <a href="index.html">Accueil</a>
-    <a href="cv.html">CV</a>
-    <a href="contact.html">Contact</a>
+  <a href="index.html">Accueil</a>
+  <a href="cv.html">CV</a>
+  <a href="contact.html">Contact</a>
 </nav>
 
 <div class="container">
-    <h2>Contact</h2>
+  <h2>Contactez-moi</h2>
+  <p>Remplissez le formulaire ci-dessous ou utilisez mes coordonnées pour me joindre directement :</p>
 
-    <p>📞 Téléphone : <a href="tel:06xxxxxxxx">06 xx xx xx xx</a></p>
-    <p>✉️ Email : <a href="mailto:email@example.com">email@example.com</a></p>
+  <form action="mailto:votre.email@example.com" method="post" enctype="text/plain">
+    <input type="text" name="nom" placeholder="Votre nom" required>
+    <input type="email" name="email" placeholder="Votre email" required>
+    <textarea name="message" placeholder="Votre message" rows="6" required></textarea>
+    <button type="submit">Envoyer</button>
+  </form>
 
-    <a class="btn-contact" href="mailto:email@example.com">Envoyer un mail</a>
+  <p style="margin-top:20px;">Ou contactez-moi directement : <strong>gregory.email@example.com</strong></p>
 </div>
 
 </body>
